@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="g3" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#c4ae84"/>
+      <stop offset="100%" stop-color="#6b4a2c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#g3)" rx="40" />
+  <ellipse cx="400" cy="290" rx="340" ry="150" fill="#ffffff" opacity="0.22" />
+  <rect x="220" y="240" width="360" height="180" rx="80" fill="#ffffff" opacity="0.3" />
+  <text x="50%" y="44%" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="56" font-weight="700">Mushroom Soup</text>
+  <text x="50%" y="60%" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="30">Truffle Touch</text>
+</svg>

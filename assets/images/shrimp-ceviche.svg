@@ -1,0 +1,13 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="g7" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f9a387"/>
+      <stop offset="100%" stop-color="#d55427"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="520" fill="url(#g7)" rx="40" />
+  <circle cx="420" cy="265" r="140" fill="#ffffff" opacity="0.2" />
+  <path d="M360 215c28-20 64-20 92 0s28 52 0 72-64 20-92 0-28-52 0-72z" fill="#ffffff" opacity="0.35" />
+  <text x="50%" y="44%" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="52" font-weight="700">Ceviche</text>
+  <text x="50%" y="60%" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="30">Shrimp</text>
+</svg>

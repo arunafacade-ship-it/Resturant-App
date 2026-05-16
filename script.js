@@ -8,7 +8,8 @@ const menuItems = [
     calories: 620,
     rating: 4.9,
     badge: 'Chef’s Pick',
-    icon: '🐟'
+    icon: '🐟',
+    image: 'assets/images/herb-crusted-salmon.svg'
   },
   {
     id: 2,
@@ -18,7 +19,8 @@ const menuItems = [
     category: 'Starters',
     calories: 280,
     rating: 4.7,
-    icon: '🥗'
+    icon: '🥗',
+    image: 'assets/images/roasted-beet-salad.svg'
   },
   {
     id: 3,
@@ -28,7 +30,8 @@ const menuItems = [
     category: 'Starters',
     calories: 310,
     rating: 4.8,
-    icon: '🍄'
+    icon: '🍄',
+    image: 'assets/images/truffle-mushroom-soup.svg'
   },
   {
     id: 4,
@@ -39,7 +42,8 @@ const menuItems = [
     calories: 930,
     rating: 4.9,
     badge: 'Popular',
-    icon: '🍕'
+    icon: '🍕',
+    image: 'assets/images/wood-fired-pizza.svg'
   },
   {
     id: 5,
@@ -49,7 +53,8 @@ const menuItems = [
     category: 'Desserts',
     calories: 410,
     rating: 4.8,
-    icon: '🍮'
+    icon: '🍮',
+    image: 'assets/images/salted-caramel-creme-brulee.svg'
   },
   {
     id: 6,
@@ -59,7 +64,8 @@ const menuItems = [
     category: 'Drinks',
     calories: 140,
     rating: 4.6,
-    icon: '🍋'
+    icon: '🍋',
+    image: 'assets/images/sparkling-lemonade.svg'
   },
   {
     id: 7,
@@ -69,7 +75,8 @@ const menuItems = [
     category: 'Starters',
     calories: 260,
     rating: 4.9,
-    icon: '🍤'
+    icon: '🍤',
+    image: 'assets/images/shrimp-ceviche.svg'
   },
   {
     id: 8,
@@ -79,7 +86,8 @@ const menuItems = [
     category: 'Desserts',
     calories: 520,
     rating: 4.7,
-    icon: '🍰'
+    icon: '🍰',
+    image: 'assets/images/berry-cheesecake.svg'
   },
   {
     id: 9,
@@ -89,7 +97,8 @@ const menuItems = [
     category: 'Drinks',
     calories: 180,
     rating: 4.8,
-    icon: '🍵'
+    icon: '🍵',
+    image: 'assets/images/matcha-latte.svg'
   }
 ];
 
