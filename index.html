@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fresh Bites Restaurant</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="topbar">
+      <div class="brand">Fresh Bites</div>
+      <div class="topbar-nav">
+        <a class="topbar__link" href="#menu">Menu</a>
+        <a class="topbar__link" href="#cart">Order</a>
+      </div>
+    </nav>
+
+    <div class="hero__content">
+      <span class="eyebrow">Now serving gourmet comfort food</span>
+      <h1>Restaurant-quality meals, ready in minutes.</h1>
+      <p>Explore seasonal favorites, customize your cart, and place pickup or delivery orders with one polished experience.</p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#menu">Explore Menu</a>
+        <a class="btn btn-secondary" href="#cart">Start Order</a>
+      </div>
+
+      <div class="hero-stats">
+        <div>⭐ 4.9 customer rating</div>
+        <div>15 handcrafted dishes</div>
+        <div>Ready in 20 minutes</div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="menu" class="section">
+      <div class="section-header">
+        <h2>Menu</h2>
+        <p>Browse our full lineup of starters, mains, desserts, and drinks.</p>
+      </div>
+
+      <div id="categoryFilters" class="category-filters"></div>
+      <div class="menu-grid" id="menuGrid"></div>
+    </section>
+
+    <section id="cart" class="section cart-section">
+      <div class="section-header">
+        <h2>Your Order</h2>
+        <p>Review your items, choose pickup or delivery, and add special requests.</p>
+      </div>
+
+      <div class="cart-card">
+        <div id="cartItems" class="cart-items">Your cart is empty.</div>
+
+        <div class="order-preferences">
+          <div class="preference-row">
+            <span class="preference-label">Order type</span>
+            <div class="radio-group">
+              <label><input type="radio" name="orderType" value="pickup" checked /> Pickup</label>
+              <label><input type="radio" name="orderType" value="delivery" /> Delivery</label>
+            </div>
+          </div>
+          <div class="preference-row">
+            <label for="orderNotes">Special requests</label>
+            <textarea id="orderNotes" placeholder="Add dietary notes, delivery directions, or preferences..."></textarea>
+          </div>
+        </div>
+
+        <div class="cart-summary">
+          <div>
+            <span>Subtotal</span>
+            <span id="subtotal">$0.00</span>
+          </div>
+          <div>
+            <span>Tax (8%)</span>
+            <span id="tax">$0.00</span>
+          </div>
+          <div class="cart-total">
+            <strong>Total</strong>
+            <strong id="total">$0.00</strong>
+          </div>
+          <button id="checkoutButton" class="btn btn-primary" disabled>Place Order</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Fresh Bites — crafted with HTML, CSS, and JavaScript.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
